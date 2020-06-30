@@ -86,7 +86,6 @@ ulFiltors.addEventListener('click', ( e ) => {
     for( const elemento of divTodoList.children ) {
         elemento.classList.remove('hidden');
         const completado = elemento.classList.contains('completed');
-        console.log(completado)
 
         switch( filtro ) {
             case "Pendientes":
